@@ -76,7 +76,7 @@ public class Program
             Age = 32,
         });
         Operation operation = new Operation();
-        operation.RetreivePersonaDetailsByName(persons);
+        operation.SkipRecordsOfAge(persons);
 
     }
 }
