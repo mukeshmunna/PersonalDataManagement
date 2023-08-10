@@ -76,7 +76,6 @@ public class Program
             Age = 32,
         });
         Operation operation = new Operation();
-        operation.RetreiveRecordsInBetweenAge(persons);
-
+        operation.RetreiveAverageAge(persons);
     }
 }
